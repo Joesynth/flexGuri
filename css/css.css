@@ -1,0 +1,140 @@
+
+
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+body {
+	background-color: lightgreen;
+	font-family: "mv boli", sans-serif;
+	margin: 0;
+	//width: 100vw;
+	height: 100vh;
+}
+
+#btR {
+	flex: 1;
+}
+
+#btR {
+	top: 34%;
+	background-color: lightyellow;
+	text-align: center;
+}
+
+#btL {
+	order: 2;
+	padding: 3em;
+}
+
+#btL {
+	top: 68%;
+	background-color: lightblue;
+	text-align: center;
+}
+
+
+#newDIV2 {
+	height: 44px;
+}
+
+
+
+#p5 {
+	position: absolute;
+	top: 2em;
+	left: -32%;
+	font-size: 4em;
+	//padding: 1em;
+}
+
+
+
+#p6 {
+	position: absolute;
+	top: 6.1em;
+	left: 20%;
+	font-weight: bold;
+	background-color: white;
+}
+
+#p7 {
+	position: absolute;
+	top: 200px;
+	left: 2%;
+	background-color: pink;
+	font-size: 0.8em;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+#btL button {
+  width: 2em;
+  height: 2em;
+}
+
+#btR button {
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 2em;
+}
+
+#boTxt1, #boTxt2 {
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+
+img {
+	width: 40%;
+	height: 50%;
+	padding-left: 30%;
+}
+
+#btL button {
+	border: none;				/* ou valor 0*/
+	background-color: transparent;
+}	
+
+#btR button {
+	border-radius: 33%;
+	background-color: transparent;
+	border: solid 1px lightgray;
+}	
+
+
+/* Media Queries
+--------------------------------------------- [DAKI PRA BAIXO É O LAYOUT DISPLAY CELULAR] */
+/* Abaixo, em @media, antes estava em 768px mas coloquei em 480px da minha cabeça (pois não me lembro de ter visto este número sendo usado antes). */
+
+
+@media all and (max-width : 480px) {
+
+			img {
+				height: 230px;
+				width: 100%;
+				border-radius: 0;
+				padding-left: 0%;
+			}
+					
+			.bts img {
+				height: 1.2em;
+				width: 1.2em;
+				border: 0em;
+				margin: 0em;
+			}
+
+			.bts button {
+				//border-radius: 0	;
+			}			
+
+}
+
+
+
